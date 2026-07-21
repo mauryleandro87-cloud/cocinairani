@@ -8,7 +8,7 @@ console.log(textsToChange);
 langButtons.forEach((button)=>{
     button.addEventListener("click",() => {
         //console.log(button.dataset.lenguaje);
-        fetch(`../leguajes/${button.dataset.lenguaje}.json`)
+        fetch(`main/leguajes/${button.dataset.lenguaje}.json`)
         .then(res => res.json())
        // .then(data => console.log(data))
         .then(data => {
