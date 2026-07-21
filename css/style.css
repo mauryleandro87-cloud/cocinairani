@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+
+/*
+
+====================================================
+=            VARIABLES DEL PROYECTO                  =
+====================================================*/
+
+:root{
+
+    /* Colores */
+
+    --color-principal:#000000;
+    --color-secundario:#FFFFFF;
+    --color-fondo:#F7F5F2;
+    --color-texto:#202020;
+    --color-acento:#3FA7D6;
+
+    /* Tipografía */
+
+    --fuente-principal:'Lemonada';
+    --fuente-logo:'Lemonada', cursive;
+
+    /* Espaciado */
+
+    --espacio-xs:5px;
+    --espacio-sm:10px;
+    --espacio-md:20px;
+    --espacio-lg:40px;
+    --espacio-xl:60px;
+
+}
+
+
+/*====================================================
+=            RESET                                   =
+====================================================*/
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+/*====================================================
+=            ESTILOS GENERALES                       =
+====================================================*/
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    padding-top: 80px;
+
+    font-family:var(--fuente-principal);
+
+    color:var(--color-texto);
+
+    background-image:url("../fondos/arab_tile.png");
+
+    background-repeat:repeat;
+
+}
+
+
+/*====================================================
+=            CONTENEDORES                            =
+====================================================*/
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+/*====================================================
+=           Titulo gasronomia                           =
+====================================================*/
+
+.gastronomia{
+
+    padding-top: 30px;
+
+}
+
+
+/*====================================================
+=            IMÁGENES                                =
+====================================================*/
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+    height:auto;
+
+}
+.img-persia{
+
+    width:50%;
+
+    display: block;
+
+    margin-top: 20px;
+
+}
+
+
+
+/*====================================================
+=            TIPOGRAFÍA                              =
+====================================================*/
+
+h1,h2,h3,h4,h5{
+
+    font-weight:normal;
+
+}
+
+p{
+
+    line-height:1.6;
+
+}
+
+
+/*====================================================
+=            ENLACES                                 =
+====================================================*/
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+/*====================================================
+=            HERO                                   =
+====================================================*/
+
+.hero{
+
+    margin-top:60px;
+
+}
+
+.hero h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.hero img{
+
+    margin:auto;
+
+}
+
+.hero p{
+
+    margin-top:30px;
+
+}
+
+/*====================================================
+=            header                              =
+====================================================*/
+
+.lenguajes{
+    display: flex;
+    gap: .5rem;
+}
+    
+.lang-button{
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+}
+
+/*====================================================
+=            SECCIONES                              =
+====================================================*/
+
+section{
+
+    margin-bottom:20px;
+
+}
+.historia-texto{
+    margin-top: 20px;
+}
+
+
+/*====================================================
+=            UTILIDADES                             =
+====================================================*/
+
+.negrilla{
+
+    font-weight:bold;
+
+}
+
+/*====================================================
+=           footer                          =
+====================================================*/
+
+.footer{
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
